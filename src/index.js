@@ -147,7 +147,15 @@
 
 // >>>>>>>>>>> ******* Classes in JavaScript ******** >>>>>>>>>>>
 
-import { Teacher } from "./Teacher";
+// import { Teacher } from "./Teacher";
+import { promote } from "./Teacher";
+
+import Teacher, { promote } from "./Teacher";
+import react, { Component } from "react";
+
+// Default --> import ... from '';
+// Named   --> import {...} from '';
+
 // const person = new Person("Mubashir!");
 
 const teacher = new Teacher("Mubashir", "B.Sc");
